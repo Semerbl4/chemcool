@@ -1,0 +1,14 @@
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  text-align: center;
+
+  &_blur {
+    backdrop-filter: blur(2px);
+  }
+}

@@ -1,0 +1,9 @@
+.example {
+  color: #01064d;
+  &__button {
+    outline: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
